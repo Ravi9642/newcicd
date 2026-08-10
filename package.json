@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "node ./node_modules/jest/bin/jest.js",
-    "coverage": "jest --coverage"
+    "test": "jest",
+    "start": "node server.js"
     
   },
   "keywords": [],
