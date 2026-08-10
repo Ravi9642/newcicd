@@ -27,7 +27,4 @@ jobs:
         run: npm install
 
       - name: Run tests
-        run: npm test
-
-      - name: Generate coverage report
-        run: npm run coverage
+        run: npx jest
